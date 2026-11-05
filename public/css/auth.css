@@ -1,0 +1,8 @@
+.auth-error{background:#fff0ed;border:1px solid #f4d2cc;border-radius:8px;color:#a84c3d;padding:12px 14px;margin:0 0 16px;line-height:1.5}
+.auth-error>div+div{margin-top:5px}
+.auth-success{background:#edf8f2;border:1px solid #d8eee3;border-radius:9px;color:#357b5b;padding:13px 16px;margin-bottom:18px}
+.remember-choice{display:flex!important;align-items:center;gap:10px;cursor:pointer}
+.auth-form input[type=checkbox]{width:22px;height:22px;min-width:22px;margin:0;accent-color:#4d79ed}
+.logout-form{display:inline-flex;margin:0}
+.welcome-user{color:#586274;font-weight:600}
+@media(max-width:720px){.welcome-user{display:none}.auth-error,.auth-success{padding:10px}}
